@@ -1,0 +1,260 @@
+.hero {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../assets/sold.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin-left: 8%;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #c31919;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ddd;
+    margin: 20px 0 30px;
+}
+
+.servicios {
+    background-color: #111;
+    color: white;
+}
+
+.titulo p:first-child {
+    color: #198754;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.titulo h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titulo h2 span {
+    color: #198754;
+}
+
+.titulo p:last-child {
+    color: #aaa;
+}
+
+.servicio {
+    background-color: #1c1c1c;
+    padding: 35px 25px;
+    text-align: center;
+    height: 100%;
+    border: 1px solid #292929;
+    transition: 0.3s;
+}
+
+.servicio:hover {
+    transform: translateY(-8px);
+    border-color: #198754;
+}
+
+.servicio i {
+    font-size: 45px;
+    color: #198754;
+}
+
+.servicio h3 {
+    margin: 20px 0 15px;
+}
+
+.servicio p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.servicios {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../assets/sold1.webp');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.porque {
+    background-color: #181818;
+    color: white;
+}
+
+.subtitulo {
+    color: #198754;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.porque h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.porque h2 span {
+    color: #198754;
+}
+
+.texto {
+    color: #aaa;
+    line-height: 1.7;
+    max-width: 550px;
+}
+
+.razon {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.razon i {
+    color: #198754;
+    font-size: 35px;
+}
+
+.razon h3 {
+    font-size: 20px;
+}
+
+.razon p {
+    color: #aaa;
+    margin: 0;
+}
+.porque {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../assets/sold2.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+/* OTROS SERVICIOS */
+
+.otros-servicios {
+    background-color: #181818;
+    color: white;
+}
+
+.otro-servicio {
+    background-color: #111;
+    border: 1px solid #292929;
+    padding: 40px 30px;
+    text-align: center;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.otro-servicio:hover {
+    transform: translateY(-8px);
+    border-color: #198754;
+}
+
+.otro-servicio i {
+    font-size: 45px;
+    color: #198754;
+}
+
+.otro-servicio h3 {
+    margin: 20px 0 15px;
+    font-size: 22px;
+}
+
+.otro-servicio p {
+    color: #aaa;
+    line-height: 1.6;
+    margin: 0;
+}
+´
+.servicios p {
+    color: blue;
+}
+
+.otros-servicios h2 span {
+    color: blue;
+}
+
+.otros-servicios {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../assets/electri.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.boton-cotizar {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    background-color: #198754;
+    color: white;
+
+    padding: 14px 22px;
+
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+    z-index: 1000;
+
+    transition: 0.3s;
+}
+
+.boton-cotizar i {
+    font-size: 24px;
+}
+
+.boton-cotizar:hover {
+    background-color: #157347;
+    color: white;
+    transform: translateY(-3px);
+}
