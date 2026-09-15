@@ -8,8 +8,8 @@ function App() {
     <>
    <Navbar/>
     <main className="flex-grow-1">
-        {/* Aquí va tu contenido */}
-      </main>
+        
+    </main>
    <Footer/>
     </>
   )
