@@ -3,8 +3,8 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-dark bg-dark sticky-top">
-        <a className="navbar-brand ms-5">Logo</a>
+      <nav className="navbar sticky-top">
+        <a className="menu navbar-brand ms-5">Logo</a>
         <form className="form-inline">
           <a href="" className='menu text-decoration-none m-2'><i className="bi bi-house-fill"></i> Inicio</a>
           <a href="" className='menu text-decoration-none m-2'><i className="bi bi-people-fill"></i> ¿Quienes Somos?</a>
@@ -15,5 +15,5 @@ const Navbar = () => {
     </>
   )
 }
-
+ 
 export default Navbar
