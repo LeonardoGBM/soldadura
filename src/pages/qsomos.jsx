@@ -49,7 +49,7 @@ const Qsomos = () => {
                         <div className="row">
                             <h3 className='titulo text-center'>Grupo de Trabajo</h3>
                             {trabajadores.map((data) => (
-                                <div key={data.id} className="col-md-3 text-center">
+                                <div key={data.id} className="grupo col-md-3 text-center">
                                     <img className='trabajador' src={data.fotos} alt="" />
                                     <h3 className='nombre'>{data.name}</h3>
                                 </div>
