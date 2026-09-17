@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './qsomos.css'
 import electri from '../assets/electri.jpg'
+import qs from '../assets/qs.jpg'
+
+
 const Qsomos = () => {
+
+    const [trabajadores, setTrabajadores] = useState([
+        {fotos:electri, name:'Leonardo'},
+        {fotos:qs, name:'Jose'},
+
+    ])
+    const [names, setNames] = useState([
+        'Jose', 'Leonardo'
+    ])
     return (
         <div>
             <main>
@@ -32,6 +44,19 @@ const Qsomos = () => {
                                 </p>
                             </div>
                         </div>
+
+
+                        <div className="row">
+                            <h3 className='titulo text-center'>Grupo de Trabajo</h3>
+                            {trabajadores.map((data) => (
+                                <div key={data.id} className="col-md-3 text-center">
+                                    <img className='trabajador' src={data.fotos} alt="" />
+                                    <h3 className='nombre'>{data.name}</h3>
+                                </div>
+                                )
+                            )}
+                        </div>
+
                     </div>
                 </section>
                 <a

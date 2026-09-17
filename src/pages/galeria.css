@@ -1,0 +1,29 @@
+.hero {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url('../assets/galeria.png');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.imagenes {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.imagenes:hover {
+    transform: translateY(-8px);
+}
+
+.ajuste {
+    margin-top: 75px;
+    margin-bottom: 20px;
+}
