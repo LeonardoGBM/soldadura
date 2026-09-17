@@ -7,6 +7,7 @@ import Inicio from './pages/inicio'
 import Qsomos from './pages/qsomos'
 import Galeria from './pages/galeria'
 import { Form } from 'react-router-dom'
+import Whatsapp from './parts/whatsapp';
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/galeria' element={<Galeria/>}/> 
             </Routes>
         </main>
+        <Whatsapp/>
         <Footer />
       </BrowserRouter >
 
